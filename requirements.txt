@@ -1,0 +1,22 @@
+
+# Audio Recording (for browser-based capture)
+# Core ML & Audio Processing
+# Security
+# Testing & Development
+# UI & Visualization
+# Updated for 2026
+# Voice Authentication System - Hackathon Edition
+# VoiceAuth MVP Dependencies
+audio-recorder-streamlit
+cryptography>=42.0.0        # Encryption for stored embeddings
+librosa>=0.10.1             # Audio analysis and feature extraction
+numpy>=1.26.0               # Numerical operations
+plotly>=5.19.0              # Waveform visualization in demo
+pytest>=8.0.0               # Unit testing
+scikit-learn>=1.4.0         # Cosine similarity and ML utilities
+soundfile>=0.12.1           # Audio file I/O (WAV support)
+speechbrain>=1.0.0          # Latest stable - ECAPA-TDNN speaker recognition
+streamlit-webrtc>=0.47.0    # Real-time audio capture in Streamlit
+streamlit>=1.31.0           # Web UI for demo
+torch>=2.6.0                # PyTorch backend (compatible with Python 3.13)
+torchaudio>=2.6.0           # Audio processing with PyTorch
