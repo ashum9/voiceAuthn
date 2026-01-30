@@ -1,0 +1,18 @@
+# VoiceAuth API Dependencies
+# Install with: pip install -r api/requirements.txt
+
+# FastAPI framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Request parsing
+python-multipart>=0.0.6
+
+# Audio processing
+pydub>=0.25.1
+
+# CORS support (included in FastAPI via Starlette)
+# Already available via fastapi
+
+# Note: Core ML dependencies (torch, torchaudio, speechbrain, librosa, etc.)
+# are inherited from the main requirements.txt
